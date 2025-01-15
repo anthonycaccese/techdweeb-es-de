@@ -5,7 +5,7 @@ Of all the Emulation Station themes you could have downloaded, you chose this on
 
 | System View | Gamelist View |
 |----|----|
-| | |
+| <img src="https://github.com/user-attachments/assets/dde088b0-188e-4057-98c4-fc065ea911d1" /> | <img src="https://github.com/user-attachments/assets/6944cf31-9a39-4857-a2b7-139e89e523bf" /> |
 
 ## **Features**
 
@@ -53,7 +53,7 @@ Of all the Emulation Station themes you could have downloaded, you chose this on
 
 ## **Acknowledgments**
 - Dogica font created by [Roberto Mocci](https://www.dafont.com/roberto-mocci.d8882)
-- Sounds effects created by [Roetaka][https://www.youtube.com/@-roetaka]
+- Sounds effects created by [Roetaka](https://www.youtube.com/@-roetaka)
 
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
