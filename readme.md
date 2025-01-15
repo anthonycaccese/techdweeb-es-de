@@ -1,5 +1,6 @@
 # TechDweeb (ES-DE Version)
-Of all the Emulation Station themes you could have downloaded, you chose this one. I hope you're proud of yourself.
+
+> Of all the Emulation Station themes you could have downloaded, you chose this one. I hope you're proud of yourself. - [TechDweeb](https://youtube.com/techdweeb)
 
 ## **Preview**
 
@@ -9,8 +10,8 @@ Of all the Emulation Station themes you could have downloaded, you chose this on
 
 ## **Features**
 
-- Custom TD Background artwork (Mom's basement!)
-- 9 unique colour schemes to choose from
+- Custom TD Background artwork
+- 9 unique colour schemes to choose from (and the ability to define your own)
 - System icons for all the popular systems
 - Custom fonts and interface design
 - Detailed gameslist view with pixel-riffic overlay
@@ -18,7 +19,8 @@ Of all the Emulation Station themes you could have downloaded, you chose this on
 - Font size options
 - Game box or logo thumbnail style
 - Aspect ratio correction for ultrawide displays
-- That's all you get. More than you deserve, to be honest.
+- "That's all you get. More than you deserve, to be honest." - [TechDweeb](https://youtube.com/techdweeb)
+
 
 ## **Configuration Options**
 
@@ -52,6 +54,7 @@ Of all the Emulation Station themes you could have downloaded, you chose this on
 - If you use Batocera... then check out the version [here](https://github.com/TechDweeb/techdweeb/).  The Batocera version has all the same base features but simply makes them available to change through Batocera's menu UI.  It also adds some additional features such as the theming of the menu and the ability to toggle on/off the display of different media elements directly through the menu ui as well.
 
 ## **Acknowledgments**
+- All artwork designed and created by [TechDweeb](https://youtube.com/techdweeb)
 - Dogica font created by [Roberto Mocci](https://www.dafont.com/roberto-mocci.d8882)
 - Sounds effects created by [Roetaka](https://www.youtube.com/@-roetaka)
 
