@@ -1,0 +1,444 @@
+<!--
+theme name:    TechDweeb
+designed by:   TechDweeb
+ported by:     Anthony Caccese
+license:       creative commons CC-BY-NC-SA
+https://github.com/anthonycaccese/techdweeb-es-de
+-->
+<theme>
+
+   <!--
+   ///
+   Variables
+   ///
+   -->
+   <variables>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+      <textlistFont>./_inc/fonts/dogicapixel.ttf</textlistFont>
+      <metadataFont>./_inc/fonts/dogicapixel.ttf</metadataFont>
+      <logoFont>./_inc/fonts/dwb_title.ttf</logoFont>
+   </variables>
+   <!-- Curated color schemes: add to this list when adding a new curated one -->
+   <colorScheme name="
+      orange,
+      purple,
+      cyan,
+      green,
+      pink,
+      blue,
+      red,
+      grey,
+      dmg
+      ">
+      <variables>
+         <colorSchemePath>./colors.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <!-- User created custom color scheme: no need to touch this ever :) -->
+   <colorScheme name="
+      custom
+      ">
+      <variables>
+         <colorSchemePath>./theme-customizations/colors-custom.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <include>${colorSchemePath}</include>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+      </helpsystem>
+   </view>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <image name="system-background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <path>${systemBackgroundImage}</path>
+         <color>${systemBackgroundImageColor}</color>
+         <saturation>${systemBackgroundImageSaturation}</saturation>
+         <brightness>${systemBackgroundImageBrightness}</brightness>
+         <zIndex>1</zIndex>
+      </image>
+      <carousel name="system-carousel">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>00000000</color>
+         <itemTransitions>animate</itemTransitions>
+         <itemVerticalAlignment>center</itemVerticalAlignment>
+         <fastScrolling>true</fastScrolling>
+         <staticImage>./_inc/systems/logos/${system.theme}.png</staticImage>
+         <itemScale>1</itemScale>
+         <maxItemCount>1</maxItemCount>
+         <textColor>ffffff</textColor>
+         <fontPath>${logoFont}</fontPath>
+         <fontSize>0.15</fontSize><!-- 72 -->
+         <lineSpacing>0.75</lineSpacing>
+         <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+         <zIndex>2</zIndex>
+      </carousel>
+   </view>
+
+   <!--
+   ///
+   Gamelist View - Global
+   ///
+   -->
+   <view name="gamelist">
+      <image name="gamelist-background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <color>${gamelistBackgroundColor}</color>
+         <zIndex>0</zIndex>
+      </image>
+      <image name="gamelist-system-logo">
+         <origin>0.5 0.5</origin>
+         <path>./_inc/systems/logos/${system.theme}.png</path>
+         <zIndex>3</zIndex>
+      </image>
+   </view>
+
+   <!--
+   ///
+   Gamelist View - List Variants
+   ///
+   -->
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-cover,
+      gamelist-list-screenshot
+      ">
+      <view name="gamelist">
+         <video name="gamelist-game-video">
+            <origin>0.5 0.5</origin>
+            <delay>3</delay>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>image</onIterationsDone>
+            <interpolation>nearest</interpolation>
+            <pillarboxes>false</pillarboxes>
+            <imageType>screenshot</imageType>
+            <zIndex>1</zIndex>
+         </video>
+         <image name="gamelist-textlist-background-shadow">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <color>${gamelistOverlayShadowColor}</color>
+            <opacity>0.2</opacity>
+            <zIndex>2</zIndex>
+         </image>
+         <image name="gamelist-textlist-background">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <color>${gamelistOverlayColor}</color>
+            <zIndex>2</zIndex>
+         </image>
+         <textlist name="gamelist-textlist">
+            <origin>0 0</origin>
+            <horizontalAlignment>left</horizontalAlignment>
+            <fontPath>${textlistFont}</fontPath>
+            <systemNameSuffix>false</systemNameSuffix>
+            <primaryColor>${gamelistTextlistPrimaryColor}</primaryColor>
+            <secondaryColor>${gamelistTextlistSecondaryColor}</secondaryColor>
+            <selectorColor>${gamelistTextlistSelectorColor}</selectorColor>
+            <selectedColor>${gamelistTextlistSelectedColor}</selectedColor>
+            <fontSize>${gamelistFontSize}</fontSize>
+            <lineSpacing>${gamelistLineSpacing}</lineSpacing>
+            <indicators>ascii</indicators>
+            <zIndex>3</zIndex>
+         </textlist>
+      </view>
+      <fontSize name="small">
+         <variables>
+            <gamelistFontSize>0.01875</gamelistFontSize><!-- 9 -->
+            <gamelistLineSpacing>2.24561404</gamelistLineSpacing><!-- 384/19/9 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <gamelistFontSize>0.02291667</gamelistFontSize><!-- 11 -->
+            <gamelistLineSpacing>2.05347594</gamelistLineSpacing><!-- 384/17/11 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gamelistFontSize>0.03541667</gamelistFontSize><!-- 17 -->
+            <gamelistLineSpacing>1.73755656</gamelistLineSpacing><!-- 384/13/17 -->
+         </variables>
+      </fontSize>
+   </variant>
+   <!-- Gamelist View - List Variants with Metadata -->
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-cover
+      ">
+      <view name="gamelist">
+         <image name="gamelist-metadata-background">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <color>${gamelistBackgroundColor}</color>
+            <zIndex>2</zIndex>
+         </image>
+         <image name="gamelist-game-image">
+            <origin>0 1</origin>
+            <zIndex>3</zIndex>
+         </image>
+         <text name="gamelist-game-genre-label">
+            <origin>0 1</origin>
+            <text>Genre</text>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataLabelColor}</color>
+            <metadataElement>true</metadataElement>
+            <verticalAlignment>bottom</verticalAlignment>
+            <visible>false</visible>
+         </text>
+         <text name="gamelist-game-genre">
+            <origin>0 0</origin>
+            <metadata>genre</metadata>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataColor}</color>
+            <verticalAlignment>top</verticalAlignment>
+            <container>true</container>
+            <containerType>horizontal</containerType>
+            <visible>false</visible>
+         </text>
+         <text name="gamelist-game-rating-label">
+            <origin>0 1</origin>
+            <text>Rating</text>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataLabelColor}</color>
+            <metadataElement>true</metadataElement>
+            <verticalAlignment>bottom</verticalAlignment>
+            <visible>false</visible>
+         </text>
+         <rating name="gamelist-rating">
+            <origin>0 0</origin>
+            <size>0 ${gamelistRatingSize}</size>
+            <color>${gamelistRatingColor}</color>
+            <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+            <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+            <overlay>false</overlay>
+            <visible>false</visible>
+         </rating>
+         <text name="gamelist-game-release-date-label">
+            <origin>0 1</origin>
+            <text>Released</text>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataLabelColor}</color>
+            <metadataElement>true</metadataElement>
+            <verticalAlignment>bottom</verticalAlignment>
+            <visible>false</visible>
+         </text>
+         <datetime name="gamelist-game-release-date">
+            <origin>0 0</origin>
+            <metadata>releasedate</metadata>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataColor}</color>
+            <format>${gamelistReleaseDateFormat}</format>
+            <verticalAlignment>top</verticalAlignment>
+            <visible>false</visible>
+         </datetime>
+         <text name="gamelist-game-players-label">
+            <origin>0 1</origin>
+            <text>Players</text>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataLabelColor}</color>
+            <metadataElement>true</metadataElement>
+            <verticalAlignment>bottom</verticalAlignment>
+            <visible>false</visible>
+         </text>
+         <text name="gamelist-game-players">
+            <origin>0 0</origin>
+            <metadata>players</metadata>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataColor}</color>
+            <verticalAlignment>top</verticalAlignment>
+            <container>true</container>
+            <containerType>horizontal</containerType>
+            <visible>false</visible>
+         </text>
+         <text name="gamelist-game-last-played-label">
+            <origin>0 1</origin>
+            <text>Last Played</text>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataLabelColor}</color>
+            <metadataElement>true</metadataElement>
+            <verticalAlignment>bottom</verticalAlignment>
+            <visible>false</visible>
+         </text>
+         <datetime name="gamelist-game-last-played">
+            <origin>0 0</origin>
+            <metadata>lastplayed</metadata>
+            <defaultValue>Never Played</defaultValue>
+            <fontPath>${metadataFont}</fontPath>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <color>${gamelistMetadataColor}</color>
+            <format>${gamelistLastPlayedFormat}</format>
+            <verticalAlignment>top</verticalAlignment>
+            <visible>false</visible>
+         </datetime>
+      </view>
+      <fontSize name="small">
+         <variables>
+            <gamelistMetadataFontSize>0.02291667</gamelistMetadataFontSize><!-- 11 -->
+            <gamelistRatingSize>0.03541667</gamelistRatingSize><!-- 17 -->
+            <gamelistReleaseDateFormat>%Y-%m-%d</gamelistReleaseDateFormat>
+            <gamelistLastPlayedFormat>%Y-%m-%d</gamelistLastPlayedFormat>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <gamelistMetadataFontSize>0.02291667</gamelistMetadataFontSize><!-- 11 -->
+            <gamelistRatingSize>0.03541667</gamelistRatingSize><!-- 17 -->
+            <gamelistReleaseDateFormat>%Y-%m-%d</gamelistReleaseDateFormat>
+            <gamelistLastPlayedFormat>%Y-%m-%d</gamelistLastPlayedFormat>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gamelistMetadataFontSize>0.03125</gamelistMetadataFontSize><!-- 15 -->
+            <gamelistRatingSize>0.03541667</gamelistRatingSize><!-- 17 -->
+            <gamelistReleaseDateFormat>%Y-%m</gamelistReleaseDateFormat>
+            <gamelistLastPlayedFormat>%Y-%m-%d</gamelistLastPlayedFormat>
+         </variables>
+      </fontSize>
+   </variant>
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee
+      ">
+      <view name="gamelist">
+         <image name="gamelist-game-image">
+            <imageType>marquee</imageType>
+         </image>
+      </view>
+   </variant>
+   <variant name="
+      gamelist-list-metadata-screenshot-cover
+      ">
+      <view name="gamelist">
+         <image name="gamelist-game-image">
+            <imageType>cover</imageType>
+         </image>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View - Carousel Variants
+   ///
+   -->
+   <variant name="
+      gamelist-carousel
+      ">
+      <view name="gamelist">
+         <image name="gamelist-carousel-header-shadow">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <color>${gamelistOverlayShadowColor}</color>
+            <opacity>0.2</opacity>
+            <zIndex>2</zIndex>
+         </image>
+         <image name="gamelist-carousel-header">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <color>${gamelistOverlayColor}</color>
+            <zIndex>2</zIndex>
+         </image>
+         <carousel name="gamelist-carousel">
+            <origin>0 0</origin>
+            <pos>0 0.2</pos>
+            <size>1 0.8</size>
+            <color>00000000</color>
+            <itemTransitions>animate</itemTransitions>
+            <itemVerticalAlignment>center</itemVerticalAlignment>
+            <fastScrolling>true</fastScrolling>
+            <imageType>cover</imageType>
+            <itemScale>1</itemScale>
+            <maxItemCount>3</maxItemCount>
+            <textColor>ffffff</textColor>
+            <fontPath>${logoFont}</fontPath>
+            <fontSize>0.08</fontSize>
+            <lineSpacing>0.75</lineSpacing>
+            <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+            <zIndex>2</zIndex>
+         </carousel>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Sounds
+   ///
+   -->
+   <view name="all">
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio name="16:9">
+      <include>./aspect-ratio-16-9.xml</include>
+   </aspectRatio>
+   <aspectRatio name="4:3">
+      <include>./aspect-ratio-4-3.xml</include>
+   </aspectRatio>
+   <!--<aspectRatio name="16:10">
+      <include>./aspect-ratio-16-10.xml</include>
+   </aspectRatio>
+   <aspectRatio name="3:2">
+      <include>./aspect-ratio-3-2.xml</include>
+   </aspectRatio>
+   <aspectRatio name="1:1">
+      <include>./aspect-ratio-1-1.xml</include>
+   </aspectRatio>-->
+
+</theme>

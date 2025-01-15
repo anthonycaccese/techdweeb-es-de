@@ -1,0 +1,132 @@
+<!-- 
+4:3 aspect ratio
+based on 640x480
+-->
+<theme>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <carousel name="system-carousel">
+         <itemSize>0.7 0.6</itemSize><!-- 448 288 -->
+      </carousel>
+   </view>
+
+   <!--
+   ///
+   Gamelist View - List Variants
+   ///
+   -->
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-cover,
+      gamelist-list-screenshot
+      ">
+      <view name="gamelist">
+         <image name="gamelist-textlist-background-shadow">
+            <path>./_inc/images/gamelist-view/4-3/list-textlist-background-shadow.svg</path>
+         </image>
+         <image name="gamelist-textlist-background">
+            <path>./_inc/images/gamelist-view/4-3/list-textlist-background.svg</path>
+         </image>
+         <image name="gamelist-system-logo">
+            <pos>0.23125 0.1</pos><!-- 148 48 -->
+            <maxSize>0.35 0.125</maxSize><!-- 224 60 -->
+         </image>
+         <textlist name="gamelist-textlist">
+            <pos>0.0 0.2</pos><!-- 0 96 -->
+            <size>0.4375 0.8</size><!-- 280 384 -->
+            <selectorWidth>0.4625</selectorWidth><!-- 296 -->
+            <horizontalMargin>0.0125</horizontalMargin><!-- 8 -->
+         </textlist>
+      </view>
+   </variant>
+   <!-- List Variants with Metadata -->
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-cover
+      ">
+      <view name="gamelist">
+         <video name="gamelist-game-video">
+            <pos>0.71875 0.41666667</pos><!-- 460 200 -->
+            <cropSize>0.5625 0.83333333</cropSize><!-- 360 400 -->
+         </video>
+         <image name="gamelist-metadata-background">
+            <path>./_inc/images/gamelist-view/4-3/list-metadata-background.svg</path>
+         </image>
+         <image name="gamelist-game-image">
+            <pos>0.5 0.85416667</pos><!-- 320 410 -->
+            <maxSize>0.25 0.3125</maxSize><!-- 160 150 -->
+         </image>
+         <text name="gamelist-game-genre-label">
+            <pos>0.5 0.92708333</pos><!-- 320 445 -->
+            <size>0.25 0.04166667</size><!-- 160 20 -->
+            <visible>true</visible>
+         </text>
+         <text name="gamelist-game-genre">
+            <pos>0.5 0.9375</pos><!-- 320 450 -->
+            <size>0.25 0.04166667</size><!-- 160 20 -->
+            <visible>true</visible>
+         </text>
+         <text name="gamelist-game-rating-label">
+            <pos>0.8125 0.82291667</pos><!-- 520 395 -->
+            <size>0.171875 0.04166667</size><!-- 110 20 -->
+            <visible>true</visible>
+         </text>
+         <rating name="gamelist-rating">
+            <pos>0.8125 0.83333333</pos><!-- 520 400 -->
+            <visible>true</visible>
+         </rating>
+         <text name="gamelist-game-release-date-label">
+            <pos>0.8125 0.92708333</pos><!-- 520 445 -->
+            <size>0.171875 0.04166667</size><!-- 110 20 -->
+            <visible>true</visible>
+         </text>
+         <datetime name="gamelist-game-release-date">
+            <pos>0.8125 0.9375</pos><!-- 520 450 -->
+            <size>0.171875 0.04166667</size><!-- 110 20 -->
+            <visible>true</visible>
+         </datetime>
+      </view>
+   </variant>
+   <!-- List Variants without Metadata -->
+   <variant name="
+      gamelist-list-screenshot
+      ">
+      <view name="gamelist">
+         <video name="gamelist-game-video">
+            <pos>0.71875 0.5</pos><!-- 460 50% -->
+            <cropSize>0.5625 1</cropSize><!-- 360 100% -->
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View - Carousel Variants
+   ///
+   -->
+   <variant name="
+      gamelist-carousel
+      ">
+      <view name="gamelist">
+         <image name="gamelist-carousel-header-shadow">
+            <path>./_inc/images/gamelist-view/4-3/carousel-header-background-shadow.svg</path>
+         </image>
+         <image name="gamelist-carousel-header">
+            <path>./_inc/images/gamelist-view/4-3/carousel-header-background.svg</path>
+         </image>
+         <image name="gamelist-system-logo">
+            <pos>0.5 0.11041667</pos><!-- 50% 53 -->
+            <maxSize>0.35 0.14583333</maxSize><!-- 224 70 -->
+         </image>
+         <carousel name="gamelist-carousel">
+            <itemSize>0.7 0.6</itemSize><!-- 448 288 -->
+         </carousel>
+      </view>
+   </variant>
+
+</theme>
