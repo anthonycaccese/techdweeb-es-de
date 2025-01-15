@@ -1,0 +1,122 @@
+<!-- 
+4:3 aspect ratio
+based on 480x480
+-->
+<theme>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <carousel name="system-carousel">
+         <itemSize>0.8 0.6</itemSize><!-- 448 288 -->
+      </carousel>
+   </view>
+
+   <!--
+   ///
+   Gamelist View - List Variants
+   ///
+   -->
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-cover,
+      gamelist-list-screenshot
+      ">
+      <view name="gamelist">
+         <image name="gamelist-textlist-background-shadow">
+            <path>./_inc/images/gamelist-view/1-1/list-textlist-background-shadow.svg</path>
+         </image>
+         <image name="gamelist-textlist-background">
+            <path>./_inc/images/gamelist-view/1-1/list-textlist-background.svg</path>
+         </image>
+         <image name="gamelist-system-logo">
+            <pos>0.24583333 0.1</pos><!-- 118 48 -->
+            <maxSize>0.40416667 0.125</maxSize><!-- 194 60 -->
+         </image>
+         <textlist name="gamelist-textlist">
+            <pos>0.0 0.2</pos><!-- 0 96 -->
+            <size>0.45833333 0.8</size><!-- 220 384 -->
+            <selectorWidth>0.49166667</selectorWidth><!-- 236 -->
+            <horizontalMargin>0.01666667</horizontalMargin><!-- 8 -->
+         </textlist>
+      </view>
+   </variant>
+   <!-- List Variants with Metadata -->
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-cover
+      ">
+      <view name="gamelist">
+         <video name="gamelist-game-video">
+            <pos>0.72916667 0.41666667</pos><!-- 350 200 -->
+            <cropSize>0.54166667 0.83333333</cropSize><!-- 260 400 -->
+         </video>
+         <image name="gamelist-metadata-background">
+            <path>./_inc/images/gamelist-view/1-1/list-metadata-background.svg</path>
+         </image>
+         <image name="gamelist-game-image">
+            <pos>0.55625 0.85416667</pos><!-- 267 410 -->
+            <maxSize>0.39583333 0.3125</maxSize><!-- 190 150 -->
+         </image>
+         <text name="gamelist-game-rating-label">
+            <pos>0.525 0.92708333</pos><!-- 252 445 -->
+            <size>0.20833333 0.04166667</size><!-- 100 20 -->
+            <visible>true</visible>
+         </text>
+         <rating name="gamelist-rating">
+            <pos>0.525 0.9375</pos><!-- 252 450 -->
+            <visible>true</visible>
+         </rating>
+         <text name="gamelist-game-release-date-label">
+            <pos>0.74375 0.92708333</pos><!-- 357 445 -->
+            <size>0.22916667 0.04166667</size><!-- 110 20 -->
+            <visible>true</visible>
+         </text>
+         <datetime name="gamelist-game-release-date">
+            <pos>0.74375 0.9375</pos><!-- 357 450 -->
+            <size>0.22916667 0.04166667</size><!-- 110 20 -->
+            <visible>true</visible>
+         </datetime>
+      </view>
+   </variant>
+   <!-- List Variants without Metadata -->
+   <variant name="
+      gamelist-list-screenshot
+      ">
+      <view name="gamelist">
+         <video name="gamelist-game-video">
+            <pos>0.72916667 0.5</pos><!-- 350 50% -->
+            <cropSize>0.54166667 1</cropSize><!-- 260 100% -->
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View - Carousel Variants
+   ///
+   -->
+   <variant name="
+      gamelist-carousel
+      ">
+      <view name="gamelist">
+         <image name="gamelist-carousel-header-shadow">
+            <path>./_inc/images/gamelist-view/1-1/carousel-header-background-shadow.svg</path>
+         </image>
+         <image name="gamelist-carousel-header">
+            <path>./_inc/images/gamelist-view/1-1/carousel-header-background.svg</path>
+         </image>
+         <image name="gamelist-system-logo">
+            <pos>0.5 0.11041667</pos><!-- 50% 53 -->
+            <maxSize>0.35 0.14583333</maxSize><!-- 224 70 -->
+         </image>
+         <carousel name="gamelist-carousel">
+            <itemSize>0.7 0.6</itemSize><!-- 448 288 -->
+         </carousel>
+      </view>
+   </variant>
+
+</theme>

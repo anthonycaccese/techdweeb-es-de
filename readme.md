@@ -30,7 +30,7 @@ Of all the Emulation Station themes you could have downloaded, you chose this on
 - `Theme Color Scheme` - sets the color scheme and system artwork that is used for the overall theme on all views.
 - `Theme Font Size` - allows you to select between `Small`, `Medium` amd `Large` font sizes
 - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - 16:9, 4:3 are supported
+   - 16:9, 4:3 and 1:1 are supported
 
 ## **Additional Notes**
 
