@@ -32,7 +32,7 @@
 - `Theme Color Scheme` - sets the color scheme and system artwork that is used for the overall theme on all views.
 - `Theme Font Size` - allows you to select between `Small`, `Medium` amd `Large` font sizes
 - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - 16:9, 4:3 and 1:1 are supported
+   - 16:9, 4:3, 3:2 and 1:1 are supported
 
 ## **Additional Notes**
 
