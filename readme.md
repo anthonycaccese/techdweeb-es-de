@@ -53,9 +53,10 @@
 ### Versions for other ES forks:
 - If you use Batocera... then check out the version [here](https://github.com/TechDweeb/techdweeb/).  The Batocera version has all the same base features but simply makes them available to change through Batocera's menu UI.  It also adds some additional features such as the theming of the menu and the ability to toggle on/off the display of different media elements directly through the menu ui as well.
 
-## **Acknowledgments**
+## **Credits**
 - All artwork designed and created by [TechDweeb](https://youtube.com/techdweeb)
 - Dogica font created by [Roberto Mocci](https://www.dafont.com/roberto-mocci.d8882)
+- DWB_Title font designed by [TechDweeb](https://youtube.com/techdweeb) and converted to `.ttf` by JWG.LLC
 - Sounds effects created by [Roetaka](https://www.youtube.com/@-roetaka)
 
 ## **License**
