@@ -293,7 +293,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
          <datetime name="gamelist-game-last-played">
             <origin>0 0</origin>
             <metadata>lastplayed</metadata>
-            <defaultValue>Never Played</defaultValue>
+            <defaultValue>Never</defaultValue>
             <fontPath>${metadataFont}</fontPath>
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <color>${gamelistMetadataColor}</color>
@@ -428,6 +428,9 @@ https://github.com/anthonycaccese/techdweeb-es-de
    <aspectRatio name="16:9">
       <include>./aspect-ratio-16-9.xml</include>
    </aspectRatio>
+   <aspectRatio name="16:10">
+      <include>./aspect-ratio-16-10.xml</include>
+   </aspectRatio>
    <aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
    </aspectRatio>
@@ -437,8 +440,5 @@ https://github.com/anthonycaccese/techdweeb-es-de
    <aspectRatio name="3:2">
       <include>./aspect-ratio-3-2.xml</include>
    </aspectRatio>
-   <!--<aspectRatio name="16:10">
-      <include>./aspect-ratio-16-10.xml</include>
-   </aspectRatio>-->
 
 </theme>

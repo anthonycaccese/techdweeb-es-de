@@ -27,12 +27,12 @@
 - The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE 
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are 6 variants to choose from:
    - `List: Metadata, Screenshot &amp; Marquee` - A list view that displays game screenshots, marquees and additional metadata (genre, release date, etc...)
-   - `List: Metadata, Screenshot &amp; Boxart'` - Same structure as above but it displays boxart instead of marquee
+   - `List: Metadata, Screenshot &amp; Boxart` - Same structure as above but it displays boxart instead of marquee
    - `List: Screenshot` - A simple list that removes all gamemetadata and displays only a game's screenshot
 - `Theme Color Scheme` - sets the color scheme and system artwork that is used for the overall theme on all views.
 - `Theme Font Size` - allows you to select between `Small`, `Medium` amd `Large` font sizes
 - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - 16:9, 4:3, 3:2 and 1:1 are supported
+   - 16:9, 16:10, 4:3, 3:2 and 1:1 are supported
 
 ## **Additional Notes**
 
