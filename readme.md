@@ -58,6 +58,7 @@
 - Dogica font created by [Roberto Mocci](https://www.dafont.com/roberto-mocci.d8882)
 - DWB_Title font designed by [TechDweeb](https://youtube.com/techdweeb) and converted to `.ttf` by JWG.LLC
 - Sounds effects created by [Roetaka](https://www.youtube.com/@-roetaka)
+- XML and theme build by [Ant](https://github.com/anthonycaccese)
 
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
