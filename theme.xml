@@ -9,6 +9,14 @@ https://github.com/anthonycaccese/techdweeb-es-de
 
    <!--
    ///
+   System Metadata
+   ///
+   -->
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+
+   <!--
+   ///
    Variables
    ///
    -->
@@ -352,8 +360,9 @@ https://github.com/anthonycaccese/techdweeb-es-de
    ///
    -->
    <variant name="
-      gamelist-carousel
+      gamelist-carousel-cover
       ">
+      <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <image name="gamelist-carousel-header-shadow">
             <origin>0 0</origin>
@@ -372,18 +381,16 @@ https://github.com/anthonycaccese/techdweeb-es-de
          </image>
          <carousel name="gamelist-carousel">
             <origin>0 0</origin>
-            <pos>0 0.2</pos>
-            <size>1 0.8</size>
+            <pos>0 0.3</pos>
+            <size>1 0.65</size>
             <color>00000000</color>
-            <itemTransitions>animate</itemTransitions>
             <itemVerticalAlignment>center</itemVerticalAlignment>
             <fastScrolling>true</fastScrolling>
             <imageType>cover</imageType>
-            <itemScale>1</itemScale>
-            <maxItemCount>3</maxItemCount>
             <textColor>ffffff</textColor>
+            <textBackgroundColor>333333</textBackgroundColor>
             <fontPath>${logoFont}</fontPath>
-            <fontSize>0.08</fontSize>
+            <fontSize>0.075</fontSize><!-- 36 -->
             <lineSpacing>0.75</lineSpacing>
             <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
             <zIndex>2</zIndex>

@@ -96,9 +96,9 @@
       <label>List: Screenshot</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="gamelist-carousel">
-      <label>Carousel</label>
-      <selectable>false</selectable>
+   <variant name="gamelist-carousel-cover">
+      <label>Carousel: Boxart</label>
+      <selectable>true</selectable>
    </variant>
 
 </themeCapabilities>
