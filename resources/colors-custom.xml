@@ -1,6 +1,7 @@
 <theme>
    <colorScheme name="custom">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/grey.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>

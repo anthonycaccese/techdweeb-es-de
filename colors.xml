@@ -1,6 +1,7 @@
 <theme>
    <colorScheme name="orange">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/orange.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -19,6 +20,7 @@
    </colorScheme>
    <colorScheme name="purple">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/purple.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -37,6 +39,7 @@
    </colorScheme>
    <colorScheme name="cyan">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/cyan.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -55,6 +58,7 @@
    </colorScheme>
    <colorScheme name="green">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/green.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -73,6 +77,7 @@
    </colorScheme>
    <colorScheme name="pink">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/pink.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -91,6 +96,7 @@
    </colorScheme>
    <colorScheme name="blue">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/blue.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -109,6 +115,7 @@
    </colorScheme>
    <colorScheme name="red">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/red.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -127,6 +134,7 @@
    </colorScheme>
    <colorScheme name="grey">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/grey.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>
@@ -145,6 +153,7 @@
    </colorScheme>
    <colorScheme name="dmg">
       <variables>
+         <systemLogoColor>ffffff</systemLogoColor>
          <systemBackgroundImage>./_inc/images/system-view/dmg.png</systemBackgroundImage>
          <systemBackgroundImageColor>ffffff</systemBackgroundImageColor>
          <systemBackgroundImageSaturation>1</systemBackgroundImageSaturation>

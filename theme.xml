@@ -88,6 +88,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
          <itemVerticalAlignment>center</itemVerticalAlignment>
          <fastScrolling>true</fastScrolling>
          <staticImage>./_inc/systems/logos/${system.theme}.png</staticImage>
+         <imageColor>${systemLogoColor}</imageColor>
          <itemScale>1</itemScale>
          <maxItemCount>1</maxItemCount>
          <textColor>ffffff</textColor>
@@ -117,6 +118,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
          <origin>0.5 0.5</origin>
          <path>./_inc/systems/logos/${system.theme}.png</path>
          <zIndex>3</zIndex>
+         <color>${systemLogoColor}</color>
       </image>
    </view>
 
