@@ -122,6 +122,15 @@ https://github.com/anthonycaccese/techdweeb-es-de
          <zIndex>3</zIndex>
          <color>${systemLogoColor}</color>
       </image>
+      <text name="custom-collection-name">
+         <origin>0.5 0</origin>
+         <fontPath>${logoFont}</fontPath>
+         <fontSize>0.05</fontSize><!-- 24 -->
+         <letterCase>uppercase</letterCase>
+         <horizontalAlignment>center</horizontalAlignment>
+         <lineSpacing>1</lineSpacing>
+         <color>${systemLogoColor}</color>
+      </text>
    </view>
 
    <!--

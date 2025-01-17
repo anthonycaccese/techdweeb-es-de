@@ -1,0 +1,125 @@
+<theme>
+   <include>./../theme.xml</include>
+   <view name="gamelist">
+      <text name="custom-collection-name">
+         <metadata>systemFullname</metadata>
+         <defaultValue>Choose a collection</defaultValue>
+      </text>
+   </view>
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-cover,
+      gamelist-list-screenshot
+      ">
+      <aspectRatio name="16:9">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.17350528 0.07916667</pos><!-- 148 38 -->
+               <maxSize>0.26260258 0.08333333</maxSize><!-- 224 40 -->
+            </image>
+            <text name="custom-collection-name">
+               <pos>0.17350528 0.125</pos><!-- 148 60 -->
+               <size>0.26260258 0</size><!-- 224 - -->
+            </text>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="16:10">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.19270833 0.07916667</pos><!-- 148 38 -->
+               <maxSize>0.29166667 0.08333333</maxSize><!-- 224 40 -->
+            </image>
+            <text name="custom-collection-name">
+               <pos>0.19270833 0.125</pos><!-- 148 60 -->
+               <size>0.29166667 0</size><!-- 224 - -->
+            </text>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="4:3">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.23125 0.07916667</pos><!-- 148 38 -->
+               <maxSize>0.35 0.08333333</maxSize><!-- 224 40 -->
+            </image>
+            <text name="custom-collection-name">
+               <pos>0.23125 0.125</pos><!-- 148 60 -->
+               <size>0.35 0</size><!-- 224 - -->
+            </text>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="3:2">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.23333333 0.07916667</pos><!-- 168 38 -->
+               <maxSize>0.31111111 0.08333333</maxSize><!-- 224 40 -->
+            </image>
+            <text name="custom-collection-name">
+               <pos>0.23333333 0.125</pos><!-- 168 60 -->
+               <size>0.31111111 0</size><!-- 224 - -->
+            </text>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="1:1">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.24583333 0.07916667</pos><!-- 118 38 -->
+               <maxSize>0.40416667 0.08333333</maxSize><!-- 194 40 -->
+            </image>
+            <text name="custom-collection-name">
+               <pos>0.24583333 0.125</pos><!-- 118 60 -->
+               <size>0.40416667 0</size><!-- 194 - -->
+            </text>
+         </view>
+      </aspectRatio>
+   </variant>
+   <variant name="
+      gamelist-carousel-cover
+      ">
+      <view name="gamelist">
+         <text name="custom-collection-name">
+            <pos>0.5 0.15625</pos><!-- 50% 75 -->
+            <size>0.8 0</size>
+         </text>
+      </view>
+      <aspectRatio name="16:9">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.5 0.08958333</pos><!-- 50% 43 -->
+               <maxSize>0.35169988 0.125</maxSize><!-- 300 60 -->
+            </image>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="16:10">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.5 0.08958333</pos><!-- 50% 43 -->
+               <maxSize>0.390625 0.125</maxSize><!-- 300 60 -->
+            </image>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="4:3">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.5 0.08958333</pos><!-- 50% 43 -->
+               <maxSize>0.35 0.125</maxSize><!-- 224 60 -->
+            </image>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="3:2">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.5 0.08958333</pos><!-- 50% 43 -->
+               <maxSize>0.41666667 0.125</maxSize><!-- 300 60 -->
+            </image>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="1:1">
+         <view name="gamelist">
+            <image name="gamelist-system-logo">
+               <pos>0.5 0.08958333</pos><!-- 50% 43 -->
+               <maxSize>0.46666667 0.125</maxSize><!-- 224 60 -->
+            </image>
+         </view>
+      </aspectRatio>
+   </variant>
+</theme>
