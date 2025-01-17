@@ -117,6 +117,8 @@ https://github.com/anthonycaccese/techdweeb-es-de
       <image name="gamelist-system-logo">
          <origin>0.5 0.5</origin>
          <path>./_inc/systems/logos/${system.theme}.png</path>
+         <!-- a fun workaround for fallbacks for now by using the <default> property =) -->
+         <default>./_inc/systems/logos-fallback/${system.theme}.svg</default>
          <zIndex>3</zIndex>
          <color>${systemLogoColor}</color>
       </image>
