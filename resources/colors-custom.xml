@@ -11,8 +11,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>909090</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>909090</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>909090</gamelistMetadataColor>
          <gamelistRatingColor>909090</gamelistRatingColor>

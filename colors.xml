@@ -11,8 +11,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>ff7300</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>ff7300</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>ff7300</gamelistMetadataColor>
          <gamelistRatingColor>ff7300</gamelistRatingColor>
@@ -30,8 +30,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>ff00ea</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>ff00ea</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>ff00ea</gamelistMetadataColor>
          <gamelistRatingColor>ff00ea</gamelistRatingColor>
@@ -49,8 +49,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>00ffea</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>00ffea</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>00ffea</gamelistMetadataColor>
          <gamelistRatingColor>00ffea</gamelistRatingColor>
@@ -68,8 +68,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>c8ed00</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>c8ed00</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>c8ed00</gamelistMetadataColor>
          <gamelistRatingColor>c8ed00</gamelistRatingColor>
@@ -87,8 +87,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>ff5364</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>ff5364</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>ff5364</gamelistMetadataColor>
          <gamelistRatingColor>ff5364</gamelistRatingColor>
@@ -106,8 +106,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>0059ee</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>0059ee</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>0059ee</gamelistMetadataColor>
          <gamelistRatingColor>0059ee</gamelistRatingColor>
@@ -125,8 +125,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>f60033</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>f60033</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>f60033</gamelistMetadataColor>
          <gamelistRatingColor>f60033</gamelistRatingColor>
@@ -144,8 +144,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>909090</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>909090</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>909090</gamelistMetadataColor>
          <gamelistRatingColor>909090</gamelistRatingColor>
@@ -163,8 +163,8 @@
          <gamelistBackgroundColor>0a0a0a</gamelistBackgroundColor>
          <gamelistTextlistPrimaryColor>ffe580</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>ffe580</gamelistTextlistSecondaryColor>
-         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
-         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>4d4b4b</gamelistTextlistSelectorColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistMetadataLabelColor>ffffff</gamelistMetadataLabelColor>
          <gamelistMetadataColor>ffe580</gamelistMetadataColor>
          <gamelistRatingColor>ffe580</gamelistRatingColor>

@@ -180,26 +180,34 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <selectedColor>${gamelistTextlistSelectedColor}</selectedColor>
             <fontSize>${gamelistFontSize}</fontSize>
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
+            <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
+            <selectorVerticalOffset>${gamelistSelectorVerticalOffset}</selectorVerticalOffset>
             <indicators>ascii</indicators>
             <zIndex>3</zIndex>
          </textlist>
       </view>
       <fontSize name="small">
          <variables>
-            <gamelistFontSize>0.01875</gamelistFontSize><!-- 9 -->
-            <gamelistLineSpacing>2.24561404</gamelistLineSpacing><!-- 384/19/9 -->
+            <gamelistFontSize>0.02291667</gamelistFontSize><!-- 11 -->
+            <gamelistLineSpacing>2.32727273</gamelistLineSpacing><!-- 384/15/11 -->
+            <gamelistSelectorHeight>0.05729168</gamelistSelectorHeight><!-- 2x11 -->
+            <gamelistSelectorVerticalOffset>-0.01</gamelistSelectorVerticalOffset>
          </variables>
       </fontSize>
       <fontSize name="medium">
          <variables>
-            <gamelistFontSize>0.02291667</gamelistFontSize><!-- 11 -->
-            <gamelistLineSpacing>2.05347594</gamelistLineSpacing><!-- 384/17/11 -->
+            <gamelistFontSize>0.02708333</gamelistFontSize><!-- 13 -->
+            <gamelistLineSpacing>2.27218935</gamelistLineSpacing><!-- 384/13/13 -->
+            <gamelistSelectorHeight>0.06770832</gamelistSelectorHeight><!-- 2.5x11 -->
+            <gamelistSelectorVerticalOffset>-0.013</gamelistSelectorVerticalOffset>
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
             <gamelistFontSize>0.03541667</gamelistFontSize><!-- 17 -->
-            <gamelistLineSpacing>1.73755656</gamelistLineSpacing><!-- 384/13/17 -->
+            <gamelistLineSpacing>2.50980392</gamelistLineSpacing><!-- 384/9/17 -->
+            <gamelistSelectorHeight>0.08854168</gamelistSelectorHeight><!-- 2.5x17 -->
+            <gamelistSelectorVerticalOffset>-0.016</gamelistSelectorVerticalOffset>
          </variables>
       </fontSize>
    </variant>
