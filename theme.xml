@@ -236,6 +236,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <color>${gamelistMetadataLabelColor}</color>
             <metadataElement>true</metadataElement>
             <verticalAlignment>bottom</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </text>
          <text name="gamelist-game-genre">
@@ -245,6 +246,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <color>${gamelistMetadataColor}</color>
             <verticalAlignment>top</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <container>true</container>
             <containerType>horizontal</containerType>
             <visible>false</visible>
@@ -257,14 +259,15 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <color>${gamelistMetadataLabelColor}</color>
             <metadataElement>true</metadataElement>
             <verticalAlignment>bottom</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </text>
          <rating name="gamelist-rating">
             <origin>0 0</origin>
             <size>0 ${gamelistRatingSize}</size>
             <color>${gamelistRatingColor}</color>
-            <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
-            <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+            <filledPath>./_inc/images/icon-star-filled.png</filledPath>
+            <unfilledPath>./_inc/images/icon-star-unfilled.png</unfilledPath>
             <overlay>false</overlay>
             <visible>false</visible>
          </rating>
@@ -276,6 +279,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <color>${gamelistMetadataLabelColor}</color>
             <metadataElement>true</metadataElement>
             <verticalAlignment>bottom</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </text>
          <datetime name="gamelist-game-release-date">
@@ -286,6 +290,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <color>${gamelistMetadataColor}</color>
             <format>${gamelistReleaseDateFormat}</format>
             <verticalAlignment>top</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </datetime>
          <text name="gamelist-game-players-label">
@@ -296,6 +301,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <color>${gamelistMetadataLabelColor}</color>
             <metadataElement>true</metadataElement>
             <verticalAlignment>bottom</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </text>
          <text name="gamelist-game-players">
@@ -305,8 +311,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <color>${gamelistMetadataColor}</color>
             <verticalAlignment>top</verticalAlignment>
-            <container>true</container>
-            <containerType>horizontal</containerType>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </text>
          <text name="gamelist-game-last-played-label">
@@ -317,6 +322,7 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <color>${gamelistMetadataLabelColor}</color>
             <metadataElement>true</metadataElement>
             <verticalAlignment>bottom</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </text>
          <datetime name="gamelist-game-last-played">
@@ -328,22 +334,23 @@ https://github.com/anthonycaccese/techdweeb-es-de
             <color>${gamelistMetadataColor}</color>
             <format>${gamelistLastPlayedFormat}</format>
             <verticalAlignment>top</verticalAlignment>
+            <lineSpacing>1</lineSpacing>
             <visible>false</visible>
          </datetime>
       </view>
       <fontSize name="small">
          <variables>
             <gamelistMetadataFontSize>0.02291667</gamelistMetadataFontSize><!-- 11 -->
-            <gamelistRatingSize>0.03541667</gamelistRatingSize><!-- 17 -->
+            <gamelistRatingSize>0.02708333</gamelistRatingSize><!-- 13 -->
             <gamelistReleaseDateFormat>%Y-%m-%d</gamelistReleaseDateFormat>
             <gamelistLastPlayedFormat>%Y-%m-%d</gamelistLastPlayedFormat>
          </variables>
       </fontSize>
       <fontSize name="medium">
          <variables>
-            <gamelistMetadataFontSize>0.02291667</gamelistMetadataFontSize><!-- 11 -->
-            <gamelistRatingSize>0.03541667</gamelistRatingSize><!-- 17 -->
-            <gamelistReleaseDateFormat>%Y-%m-%d</gamelistReleaseDateFormat>
+            <gamelistMetadataFontSize>0.02708333</gamelistMetadataFontSize><!-- 13 -->
+            <gamelistRatingSize>0.03125</gamelistRatingSize><!-- 15 -->
+            <gamelistReleaseDateFormat>%Y-%m</gamelistReleaseDateFormat>
             <gamelistLastPlayedFormat>%Y-%m-%d</gamelistLastPlayedFormat>
          </variables>
       </fontSize>
