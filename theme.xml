@@ -63,12 +63,9 @@ https://github.com/anthonycaccese/techdweeb-es-de
       </clock>
       <systemstatus name="system-status">
          <origin>1 0</origin>
-         <pos>0.9975 0.0075</pos>
          <fontPath>${textlistFont}</fontPath>
          <textRelativeScale>0.5</textRelativeScale>
-         <color>ffffff</color>
-         <backgroundColor>0a0a0a</backgroundColor>
-         <backgroundPadding>0.01 0.015</backgroundPadding>
+         <color>ffffffee</color>
          <height>${systemStatusHeight}</height>
          <customIcon icon="icon_bluetooth">./_inc/images/icon-bluetooth.svg</customIcon>
          <customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
@@ -80,22 +77,34 @@ https://github.com/anthonycaccese/techdweeb-es-de
          <customIcon icon="icon_battery_low">./_inc/images/icon-battery-low.svg</customIcon>
       </systemstatus>
       <helpsystem name="help">
+         <scope>view</scope>
          <pos>1 1</pos>
+      </helpsystem>
+      <helpsystem name="help-menu-view">
+         <scope>menu</scope>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.95</pos>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>181818</backgroundColor>
+         <backgroundHorizontalPadding>0.05 0.05</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.05 0.05</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
       </helpsystem>
    </view>
    <fontSize name="small">
       <variables>
-         <systemStatusHeight>0.033333333333333</systemStatusHeight><!-- 16 -->
+         <systemStatusHeight>0.04583333</systemStatusHeight><!-- 22 -->
       </variables>
    </fontSize>
    <fontSize name="medium">
       <variables>
-         <systemStatusHeight>0.0375</systemStatusHeight><!-- 18 -->
+         <systemStatusHeight>0.05</systemStatusHeight><!-- 24 -->
       </variables>
    </fontSize>
    <fontSize name="large">
       <variables>
-         <systemStatusHeight>0.05</systemStatusHeight><!-- 24 -->
+         <systemStatusHeight>0.05833333</systemStatusHeight><!-- 28 -->
       </variables>
    </fontSize>
 
