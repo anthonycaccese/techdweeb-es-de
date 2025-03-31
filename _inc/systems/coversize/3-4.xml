@@ -10,7 +10,7 @@
             </carousel>
          </view>
       </aspectRatio>
-      <aspectRatio name="4:3,3:2,1:1">
+      <aspectRatio name="4:3,3:2,8:7,1:1">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
                <itemSize>0.21875 0.388888888888889</itemSize><!-- 315 420 -->
