@@ -6,6 +6,17 @@ based on 640x480
 
    <!--
    ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <systemstatus name="system-status">
+         <pos>0.96875 0.04166667</pos><!-- 620 20 -->
+      </systemstatus>
+   </view>
+
+   <!--
+   ///
    System View
    ///
    -->

@@ -1,6 +1,6 @@
 <!-- 
-4:3 aspect ratio
-based on 480x480
+8:7 aspect ratio
+based on 549x480
 -->
 <theme>
 
@@ -38,10 +38,10 @@ based on 480x480
       ">
       <view name="gamelist">
          <image name="gamelist-textlist-background-shadow">
-            <path>./_inc/images/gamelist-view/1-1/list-textlist-background-shadow.svg</path>
+            <path>./_inc/images/gamelist-view/8-7/list-textlist-background-shadow.svg</path>
          </image>
          <image name="gamelist-textlist-background">
-            <path>./_inc/images/gamelist-view/1-1/list-textlist-background.svg</path>
+            <path>./_inc/images/gamelist-view/8-7/list-textlist-background.svg</path>
          </image>
          <image name="gamelist-system-logo">
             <pos>0.24583333 0.1</pos><!-- 118 48 -->
@@ -66,7 +66,7 @@ based on 480x480
             <cropSize>0.54166667 0.83333333</cropSize><!-- 260 400 -->
          </video>
          <image name="gamelist-metadata-background">
-            <path>./_inc/images/gamelist-view/1-1/list-metadata-background.svg</path>
+            <path>./_inc/images/gamelist-view/8-7/list-metadata-background.svg</path>
          </image>
          <image name="gamelist-game-image">
             <pos>0.55625 0.85416667</pos><!-- 267 410 -->
@@ -115,10 +115,10 @@ based on 480x480
       ">
       <view name="gamelist">
          <image name="gamelist-carousel-header-shadow">
-            <path>./_inc/images/gamelist-view/1-1/carousel-header-background-shadow.svg</path>
+            <path>./_inc/images/gamelist-view/8-7/carousel-header-background-shadow.svg</path>
          </image>
          <image name="gamelist-carousel-header">
-            <path>./_inc/images/gamelist-view/1-1/carousel-header-background.svg</path>
+            <path>./_inc/images/gamelist-view/8-7/carousel-header-background.svg</path>
          </image>
          <image name="gamelist-system-logo">
             <pos>0.5 0.12083333</pos><!-- 50% 58 -->
